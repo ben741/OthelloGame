@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Othello 3.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Othello 3"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "Othello 3.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Documents and Settings\Ben\My Documents\Othello Game\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Documents and Settings\Ben\My Documents\Othello Game\Othello 3.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\Documents and Settings\Ben\My Documents\Othello Game\Main 3.frm"
+        NewPath = "C:\Documents and Settings\Ben\My Documents\Othello Game\Project1.NET\Main 3.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "Main"
+                ObjectType = "Form"
+                PME = "AutoRedraw"
+            >Form property Main.AutoRedraw was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "AutoRedraw"
+            >PictureBox property Disp.AutoRedraw was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "FillColor"
+            >PictureBox property Disp.FillColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2036"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "MousePointer"
+            >PictureBox property Disp.MousePointer does not support custom mousepointers.</Issue>
+        </Section>
+        <Section Name = "Begin_cmd_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Scale"
+            >PictureBox method Disp.Scale was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Line"
+            >PictureBox method Disp.Line was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "MouseIcon"
+            >PictureBox property Disp.MouseIcon was not upgraded.</Issue>
+        </Section>
+        <Section Name = "Disp_MouseUp" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object clicked_board().</Issue>
+        </Section>
+        <Section Name = "clicked_board" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "MouseIcon"
+            >PictureBox property Disp.MouseIcon was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object CalculateColourChanges(xd, yd, white).</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object CalculateColourChanges(xd, yd, black).</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_score().</Issue>
+        </Section>
+        <Section Name = "DrawChips" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "FillStyle"
+            >PictureBox property Disp.FillStyle was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Cls"
+            >PictureBox method Disp.Cls was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Line"
+            >PictureBox method Disp.Line was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "FillColor"
+            >PictureBox property Disp.FillColor was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Circle"
+            >PictureBox method Disp.Circle was not upgraded.</Issue>
+        </Section>
+        <Section Name = "CalculateColourChanges" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object CalculateColourChanges.</Issue>
+        </Section>
+        <Section Name = "find_legal_moves" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_legal_moves3().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_legal_moves2(white).</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_legal_moves2(black).</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "FillStyle"
+            >PictureBox property Disp.FillStyle was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "FillColor"
+            >PictureBox property Disp.FillColor was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Circle"
+            >PictureBox method Disp.Circle was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "MouseIcon"
+            >PictureBox property Disp.MouseIcon was not upgraded.</Issue>
+        </Section>
+        <Section Name = "find_legal_moves2" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_legal_moves3().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_legal_moves2.</Issue>
+        </Section>
+        <Section Name = "find_legal_moves3" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_legal_moves3.</Issue>
+        </Section>
+        <Section Name = "find_score" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object find_score.</Issue>
+        </Section>
+        <Section Name = "HappyPic_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object clicked_board().</Issue>
+        </Section>
+        <Section Name = "load_new_matrix" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Circle"
+            >PictureBox method Disp.Circle was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Ben\My Documents\Othello Game\Variables 3.bas"
+        NewPath = "C:\Documents and Settings\Ben\My Documents\Othello Game\Project1.NET\Variables 3.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "(Declarations)" >
+            <Issue
+                Type = "Compile"
+                Number = "1051"
+            >Declaration type not supported: Array with lower bound less than zero.</Issue>
+        </Section>
+        <Section Name = "set_value_matrix" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "Disp"
+                ObjectType = "PictureBox"
+                PME = "Circle"
+            >PictureBox method Disp.Circle was not upgraded.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+
